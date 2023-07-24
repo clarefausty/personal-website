@@ -2,15 +2,18 @@ import React from 'react'
 import "./Content.css"
 import {AiFillTwitterCircle} from "react-icons/ai"
 import {FaLinkedin} from "react-icons/fa"
+import {AiFillGithub} from "react-icons/ai"
 
 function Content() {
   return (
     <div className='content-page'>
       <div className='photo-section'>
       <img className='sidebar rounded grid-item' src='/Asset/chinwe.PNG' alt='Pretty Lady'/>
+      <div className='social-handle'>
       <span className='footer grid-item handle'><AiFillTwitterCircle className='handle-icon' /></span>
       <span className='footer grid-item handle'><FaLinkedin className='handle-icon'/></span>
-      
+      <span className='footer grid-item handle'><AiFillGithub className='handle-icon'/></span>
+      </div>
       </div>
       <div className='career-section'>
 
