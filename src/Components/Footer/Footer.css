@@ -1,5 +1,13 @@
 .foot-end{
-    padding: 1em;
-    font-weight: 700;
-    font-size: 3rem;
+    position: fixed;
+  overflow: hidden;
+  margin: 0;
+  padding: 1em 0;
+  font-size: 1.25rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0C0C22;
+  color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif;
 }
